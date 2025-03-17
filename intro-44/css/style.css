@@ -1,0 +1,23 @@
+.border{
+    background: pink;
+    height: 600px;
+    border: 1px solid black;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    overflow: scroll;
+}
+
+.block{
+    background: wheat;
+    box-sizing: border-box;
+    width: 350px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 10px 1px black ;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
