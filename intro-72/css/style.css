@@ -1,0 +1,31 @@
+body{
+    background: gray;
+}
+
+.container{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.text::before{
+    content: '';
+    position: absolute;
+    right: 60%;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.text::after{
+    content: '';
+    position: absolute;
+    left: 60%;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border: 5px solid white;
+    border-radius: 50%;
+}
